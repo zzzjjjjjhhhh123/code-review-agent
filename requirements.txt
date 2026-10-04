@@ -1,0 +1,12 @@
+# ===== 代码审查 Agent 依赖 =====
+# LLM 原生 API 调用（DeepSeek / Qwen / OpenAI 均兼容 OpenAI 协议）
+requests>=2.31.0
+
+# LLM 调用的超时与失败重试
+tenacity>=8.2.3
+
+# 圈复杂度静态分析工具
+radon>=6.0.1
+
+# 静态代码检查工具（可选，未安装时该工具会优雅降级）
+pylint>=3.0.0
